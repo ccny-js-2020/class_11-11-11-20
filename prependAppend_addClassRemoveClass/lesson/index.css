@@ -1,0 +1,11 @@
+.color-of-p {
+  color: blue
+}
+
+.font-size-of-p {
+  font-size: 50px;
+}
+
+#this-p:hover {
+  cursor: pointer;
+}
