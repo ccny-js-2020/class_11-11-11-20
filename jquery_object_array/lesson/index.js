@@ -40,6 +40,10 @@ $(document).on("click", ".animal-image", function(){
   }
 });
 
+$(document).on("mouseenter", ".animal-image", function(){
+  $(this).css("cursor", "pointer")
+});
+
 function appendOrChangeContent(arrayIndex, array){
   var animalIndex = array[arrayIndex];
 
