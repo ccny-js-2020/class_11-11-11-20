@@ -38,7 +38,7 @@
 
   //append the source element to the audio element
 
-  //append the audio eleemnt to the 'current-ring' class on the dom
+  //append the p tag element and audio element to the 'current-ring' class on the dom
 
 
 //call the appendRingInfo function

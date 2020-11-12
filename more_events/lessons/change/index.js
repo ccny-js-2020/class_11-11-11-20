@@ -20,6 +20,12 @@ for(var i = 0; i < animals.length; i++){
 }
 $(".animals-select-div").append(select);
 
-$(".animals-select").change(function(e){
+///both of these events work to the value of the dropdown when changed
+
+// $(".animals-select").change(function(e){
+//     console.log(e.target.value);
+// });
+
+$(document).on("change", ".animals-select", function(e){
     console.log(e.target.value);
 });
